@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    color: white;
+    background-image: linear-gradient(to left,rgb(120, 0, 0), black);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 25px;
+}
+
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+nav ul li a:hover {
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 3px;
+}
+
+#home-link {
+    color: red;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.logo {
+    margin-left: 55px;
+}
+
+.logo a {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+
+img {
+    height: 500px;
+    border: none;
+    border-radius: 50%;
+}
+
+#home-h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.name {
+    color: red;
+    text-decoration: underline;
+}
+
+#home-h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#home-button {
+    border: 1px solid red;
+    height: 30px;
+    width: 70px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: red;
+    border-radius: 35px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+#home-button:hover {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.877);
+    transform: scale(1.1);
+}
+
+.home-content {
+    width: 750px;
+}
+
+.home-img {
+    margin: 0 0 0 75px;
+}
+
+
+#about {
+    display: flex;
+    align-items: center;
+}
+
+.about-content {
+    width: 700px;
+}
+
+#about-myself-img {
+    border-radius: 50px;
+    width: 350px;
+    border: 5px solid white;
+}
+
+#about-heading {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#about-h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#about-p {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .section {
+        flex-direction: column;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .home-img {
+        margin-right: 50px;
+    }
+}
