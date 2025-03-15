@@ -22,14 +22,14 @@
 
 // console.log(arr);
 
-//ForEach method
+// ForEach method
 // let arr = [1,2,3,4,5,6,7,8,9,10];
 
 // arr.forEach((val) => {
 //     console.log(val ** 2);
 // })
 
-//map method
+// map method
 // let arr = [1,2,3,4,5,6,7,8,9,10];
 
 // let new_arr = arr.map((val) => {
@@ -66,7 +66,7 @@
 
 // console.log(`The average of the list ${arr} is ${result / arr.length}`);
 
-//Practice
+// Practice
 
 // let marks = [29, 30, 48, 20, 50, 63, 29, 69, 20, 12, 32, 53, 23, 53, 63, 23];
 
