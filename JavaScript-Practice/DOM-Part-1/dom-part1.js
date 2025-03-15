@@ -1,4 +1,3 @@
-let firstEl = document.querySelector('#home-h1');
-console.log(firstEl.innerText);
+let element = document.querySelector('.box');
 
-firstEl.innerText =  "Website Heading";
+element.innerText = 'Box 1';
