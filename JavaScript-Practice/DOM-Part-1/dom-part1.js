@@ -1,3 +1,10 @@
-let element = document.querySelector('.box');
+let button = document.createElement('button');
+button.innerText = 'Click Me';
 
-element.innerText = 'Box 1';
+button.style.background = 'red';
+button.style.color = 'white';
+
+let element = document.querySelector('body');
+element.prepend(button);
+
+let paragraph = document.querySelector('p');
